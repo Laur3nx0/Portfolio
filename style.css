@@ -1,29 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Mono&display=swap');
 
-.nav-bar{
+body{
+  background-color: #0B2027;
+}
 
+.nav-bar{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
 }
 
 .nav-link{
-  color: #C9C5CB;
+  color: #F6F1D1;
   font-family: 'Roboto Mono', monospace;
   font-size: small;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.nav-link:hover{
+  color: #2CF6B3;
 }
 
 .about{
-
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  width: 50%;
+  align-content: space-between;
+  margin: auto;
+  padding-top: 150px;
 }
 
 .intro{
   font-family: 'Roboto Mono', monospace;
-  font-size: small;
+  font-size: 1rem;
+  color: #2CF6B3;
 }
 
 .intro-hdr{
   font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  color: #CFD7C7;
 }
 
 .intro-par{
   font-family: 'Quicksand', sans-serif;
-  font-size: small;
+  font-size: 1rem;
+  color: #F6F1D1;
 }

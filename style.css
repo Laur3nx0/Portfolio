@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Mono&display=swap');
+
+.nav-bar{
+
+}
+
+.nav-link{
+  color: #C9C5CB;
+  font-family: 'Roboto Mono', monospace;
+  font-size: small;
+}
+
+.about{
+
+}
+
+.intro{
+  font-family: 'Roboto Mono', monospace;
+  font-size: small;
+}
+
+.intro-hdr{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.intro-par{
+  font-family: 'Quicksand', sans-serif;
+  font-size: small;
+}

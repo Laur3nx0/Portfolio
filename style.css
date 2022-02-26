@@ -71,3 +71,36 @@ body{
   font-size: 1rem;
   color: #BBC4B3;
 }
+
+.work{
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  width: 50%;
+  align-content: space-between;
+  margin: auto;
+  padding-top: 500px;
+}
+
+.work-hdr{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  color: #CFD7C7;
+}
+
+.work-list{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  color: #BBC4B3;
+}
+
+.years-active{
+  color: #2CF6B3;
+}
+
+.work-points{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  color: #BBC4B3;
+  text-decoration: none;
+}

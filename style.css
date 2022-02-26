@@ -11,7 +11,7 @@ body{
 }
 
 .nav-link{
-  color: #F6F1D1;
+  color: #CFD7C7;
   font-family: 'Roboto Mono', monospace;
   font-size: small;
   padding-top: 25px;
@@ -22,7 +22,7 @@ body{
   color: #2CF6B3;
 }
 
-.about{
+.intro{
   display: flex;
   flex-flow: wrap;
   flex-direction: column;
@@ -32,7 +32,7 @@ body{
   padding-top: 150px;
 }
 
-.intro{
+.intro-line{
   font-family: 'Roboto Mono', monospace;
   font-size: 1rem;
   color: #2CF6B3;
@@ -47,5 +47,27 @@ body{
 .intro-par{
   font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
-  color: #F6F1D1;
+  color: #BBC4B3;
+}
+
+.about{
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  width: 50%;
+  align-content: space-between;
+  margin: auto;
+  padding-top: 500px;
+}
+
+.about-me{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  color: #CFD7C7;
+}
+
+.about-par{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  color: #BBC4B3;
 }

@@ -104,3 +104,51 @@ body{
   color: #BBC4B3;
   text-decoration: none;
 }
+
+.projects{
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  width: 50%;
+  align-content: space-between;
+  margin: auto;
+  padding-top: 500px;
+}
+
+.projects-hdr{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  color: #CFD7C7;
+}
+
+.contact{
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  width: 50%;
+  align-content: space-between;
+  margin: auto;
+  padding-top: 500px;
+}
+
+.contact-hdr{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  color: #CFD7C7;
+}
+
+.contact-par{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  color: #BBC4B3;
+}
+
+.email-btn{
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  color: #2CF6B3;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 250px;
+}
